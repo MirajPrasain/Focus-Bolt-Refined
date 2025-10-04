@@ -109,7 +109,7 @@ useEffect(() => {
       console.log(`⏰ Triggering AI message at ~${minutesPassed} min`);
 
       try {
-        const aiRes = await axios.get("https://focus-bolt-clean.onrender.com/ai-messages", {
+        const aiRes = await axios.get("http://localhost:8001/ai-messages", {
           params: {
             duration,
             vibe,
@@ -148,7 +148,7 @@ useEffect(() => {
     try {
       console.log("🎵 Calling backend TTS API...");
       
-      const response = await axios.post("https://focus-bolt-clean.onrender.com/api/tts", {
+      const response = await axios.post("http://localhost:8001/session/api/tts", {
         text: cleanText,
         vibe: vibe
       }, {

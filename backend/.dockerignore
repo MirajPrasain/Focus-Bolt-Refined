@@ -3,9 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-.env
-.env
-*.sqlite3
 *.db
-.DS_Store 
+.env
+.git
+.gitignore

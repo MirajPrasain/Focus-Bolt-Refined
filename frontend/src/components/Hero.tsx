@@ -18,55 +18,6 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
       </div>
 
-      {/* Enhanced Bolt Badge - Top Right with Distinctive Styling */}
-      <div className="fixed top-24 right-6 z-[100]">
-        <a 
-          href="https://bolt.new" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="group block"
-          aria-label="Built with Bolt"
-        >
-          <div className="relative">
-            {/* Outer glow ring */}
-            <div className="absolute -inset-2 bg-gradient-to-r from-yellow-400/30 via-orange-400/30 to-yellow-400/30 rounded-3xl blur-lg opacity-60 group-hover:opacity-100 transition-all duration-500 animate-pulse"></div>
-            
-            {/* Middle border ring */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/50 via-orange-500/50 to-yellow-500/50 rounded-2xl opacity-80 group-hover:opacity-100 transition-all duration-300"></div>
-            
-            {/* Inner container with glass effect */}
-            <div className="relative bg-gray-900/80 backdrop-blur-xl border-2 border-gradient-to-r from-yellow-400/60 via-orange-400/60 to-yellow-400/60 rounded-2xl p-2 shadow-2xl transition-all duration-300 group-hover:scale-110 group-hover:shadow-yellow-500/40">
-              
-              {/* Glass reflection overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-transparent rounded-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
-              
-              {/* Badge image */}
-              <div className="relative">
-                <img 
-                  src="/src/assets/bolt_badge.png" 
-                  alt="Built with Bolt" 
-                  className="w-auto h-14 md:h-16 rounded-xl filter drop-shadow-lg transition-all duration-300 group-hover:drop-shadow-2xl"
-                />
-                
-                {/* Inner glow overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-400/20 rounded-xl opacity-0 group-hover:opacity-60 transition-opacity duration-300"></div>
-              </div>
-              
-              {/* Floating particles effect */}
-              <div className="absolute -top-1 -right-1 w-2 h-2 bg-yellow-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-all duration-300"></div>
-              <div className="absolute -bottom-1 -left-1 w-1.5 h-1.5 bg-orange-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-all duration-500" style={{ animationDelay: '0.2s' }}></div>
-            </div>
-            
-            {/* Tooltip */}
-            <div className="absolute top-full right-0 mt-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-              <div className="bg-gray-900/95 backdrop-blur-sm border border-yellow-400/30 rounded-lg px-3 py-2 text-sm text-white font-medium shadow-xl">
-                Built with Bolt ⚡
-                <div className="absolute -top-1 right-4 w-2 h-2 bg-gray-900 border-l border-t border-yellow-400/30 transform rotate-45"></div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">

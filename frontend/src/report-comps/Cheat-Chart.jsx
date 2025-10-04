@@ -32,7 +32,7 @@ const CheatChart = () => {
         setError(null);
         
         const res = await axios.get(
-          "https://focus-bolt-clean.onrender.com/post-session?chart_type=cheat"
+          "http://localhost:8001/post-session?chart_type=cheat"
         );
 
         // Transform to scatter plot format

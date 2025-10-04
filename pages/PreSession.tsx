@@ -18,7 +18,7 @@ const PreSession = () => {
     }
 
     // Encode query params to avoid breaking URL
-    const encodedGoal = encodeURIComponent(goal);
+    const encodedGoal = encodeURIComponent(goal); //this goal will be updated once user types via controlled input 
     navigate(`/session?duration=${sessionMin}&goal=${encodedGoal}&vibe=${vibe}`);
   };
 
@@ -97,7 +97,7 @@ const PreSession = () => {
                 <input
                   type="text"
                   placeholder="e.g., Finish my essay, Study chapter 5, Code the login feature"
-                  value={goal}
+                  value={goal} 
                   onChange={(e) => setGoal(e.target.value)}
                   className="w-full px-6 py-4 bg-gray-900/50 border border-gray-600 rounded-xl text-white placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 focus:outline-none transition-all duration-300 text-lg"
                 />

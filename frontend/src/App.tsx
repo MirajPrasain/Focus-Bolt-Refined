@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import PreSession from './pages/PreSession'; // or wherever you saved it
 import Session from './pages/Session'; 
 import PostSession from './pages/PostSession'; 
-import FocusAgent from "./components/FocusAgent";
+
 
 
 function App() {
