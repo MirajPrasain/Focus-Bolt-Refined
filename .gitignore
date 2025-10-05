@@ -44,3 +44,8 @@ Thumbs.db
 # Logs
 logs
 *.log
+
+# Development tool directories
+.bolt/
+.cursor/
+.windsurf/
