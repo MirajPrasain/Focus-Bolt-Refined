@@ -6,7 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
-import PreSession from './pages/PreSession'; // or wherever you saved it
+import PreSession from './pages/PreSession';
 import Session from './pages/Session'; 
 import PostSession from './pages/PostSession'; 
 
